@@ -1,6 +1,8 @@
 #! /usr/bin/perl -w
 use strict;
 
+# Handles special characters at the end of input
+
 while( my $input = <> ) {
 	chomp($input);
 	if ($input eq 'exit') {
